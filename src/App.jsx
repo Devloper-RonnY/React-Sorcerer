@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Title from "./components/Title";
 import EditorComponent from "./components/EditorComponents.jsx";
-// import Btn from "./components/Btn";
+import Btn from "./components/Btn";
 import { EditorState } from "draft-js";
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
         editorState={editorState}
         setEditorState={setEditorState}
       />
-      {/* <Btn editorState={editorState} />{" "} */}
+      <Btn editorState={editorState} />{" "}
     </div>
   );
 };
